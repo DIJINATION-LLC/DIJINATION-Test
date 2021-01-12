@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
-  top: 40px;
+  /* top: 40px; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -684,7 +684,7 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+/* .featured-services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -747,31 +747,29 @@ section {
 .featured-services .icon-box:hover .icon i {
   color: #fff;
 }
-
+ */
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#about-div{
-  margin-top: 100px;
+.about, .about .container{
+  padding-top: 0;
 }
 
-#contact-div{
-  margin-top: 100px;
+.about .section-title{
+  width: 100%;
+  height: 50vh;
+  background: url("../img/about\ 3.jpg") top left;
+  background-size: cover;
+  position: relative;
 }
 
-#services-div{
-  margin-top: 100px;
-}
-
-.row{
-  background-color: rgb(196, 174, 218);
-}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
 
 .about .content ul {
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -989,7 +987,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/ourculture-bg2.jpg") no-repeat;
+  background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
