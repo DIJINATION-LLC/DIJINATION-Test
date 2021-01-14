@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #000030;
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
@@ -184,11 +184,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #222222;
+  color: #fff;
 }
 
 #header .logo a span {
-  color: #106eea;
+  color: #00FFC0;
 }
 
 #header .logo img {
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #222222;
+  color: #fff;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #106eea;
+  background-color: #00FFC0;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #106eea;
+  color: #00FFC0;
 }
 
 .nav-menu .drop-down ul {
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #106eea;
+  color: #00FFC0;
 }
 
 .nav-menu .drop-down > a:after {
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #106eea;
+  color: #00FFC0;
   text-decoration: none;
 }
 
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #008882;
+  color: #00FFC0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #106eea;
+  background: #00FFC0;
 }
 
 #hero .btn-get-started:hover {
@@ -524,7 +524,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video i {
-  color: #106eea;
+  color: #00FFC0;
   font-size: 32px;
   position: absolute;
   left: 0;
@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: #106eea;
+  color: #00FFC0;
 }
 
 #hero .btn-watch-video:hover i {
@@ -594,7 +594,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #e7f1fd;
-  color: #106eea;
+  color: #00FFC0;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -607,7 +607,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #106eea;
+  color: #00FFC0;
 }
 
 .section-title p {
@@ -708,7 +708,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #106eea;
+  background: #008882;
   top: 0;
   border-radius: 0px;
 }
