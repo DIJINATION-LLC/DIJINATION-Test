@@ -189,11 +189,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: #00FFC0;
+  color: #008882;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 3.2rem;
 }
 
 @media (max-width: 992px) {
@@ -229,7 +229,11 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
+<<<<<<< Updated upstream
   color: #222222;
+=======
+  color: #000;
+>>>>>>> Stashed changes
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
@@ -293,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #00FFC0;
+  color: #008882;
 }
 
 .nav-menu .drop-down > a:after {
@@ -389,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #00FFC0;
+  color: #008882;
   text-decoration: none;
 }
 
@@ -481,12 +485,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #00FFC0;
+  color: #008882;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h1 span {
-  color: #00FFC0;
+  color: #008882;
 }
 
 #hero h2 {
@@ -507,7 +511,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #00FFC0;
+  background: #008882;
 }
 
 #hero .btn-get-started:hover {
@@ -526,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video i {
-  color: #00FFC0;
+  color: #008882;
   font-size: 32px;
   position: absolute;
   left: 0;
@@ -535,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: #00FFC0;
+  color: #008882;
 }
 
 #hero .btn-watch-video:hover i {
@@ -596,7 +600,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #e7f1fd;
-  color: #00FFC0;
+  color: #008882;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -609,7 +613,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #00FFC0;
+  color: #008882;
 }
 
 .section-title p {
