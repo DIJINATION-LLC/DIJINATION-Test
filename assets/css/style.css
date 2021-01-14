@@ -11,7 +11,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #00ffbf15;
 }
 
 a {
@@ -753,7 +752,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about, .about .container{
+/* .about, .about .container{
   padding-top: 0;
 }
 
@@ -763,7 +762,7 @@ section {
   background: url("../img/about\ 3.jpg") top left;
   background-size: cover;
   position: relative;
-}
+} */
 
 .about .content h3 {
   font-weight: 600;
@@ -772,27 +771,25 @@ section {
 
 .about .content ul {
   margin-top: 10px;
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
   list-style: none;
   padding: 0;
 }
 
 .about .content ul li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 33%;
-  margin: 0 25px 35px 25px;
+  flex-direction: row;
+  align-items: baseline;
+  width: auto;
 }
 
 .about .content ul i {
   background: #fff;
   box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
   font-size: 24px;
-  padding: 20px;
-  margin: 0 0 35px 0;
-  color: #106eea;
+  padding: 15px;
+  margin: 0 10px 35px 0;
+  color: #00847A;
   border-radius: 50px;
 }
 
@@ -824,7 +821,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+/* .skills .progress {
   height: 50px;
   display: block;
   background: none;
@@ -855,11 +852,11 @@ section {
   transition: .9s;
   background-color: #106eea;
 }
-
+ */
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts {
+/* .counts {
   padding: 70px 0 60px;
 }
 
@@ -897,11 +894,11 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
-
+ */
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients {
+/* .clients {
   padding: 15px 0;
   text-align: center;
 }
@@ -922,7 +919,7 @@ section {
     max-width: 40%;
   }
 }
-
+ */
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
