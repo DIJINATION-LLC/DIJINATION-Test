@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #00ffbf15;
 }
 
 a {
@@ -160,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #000030;
+  background: #fff;
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
@@ -184,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #222222;
 }
 
 #header .logo a span {
@@ -228,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #222222;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
@@ -243,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #00FFC0;
+  background-color: #008882;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -255,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #00FFC0;
+  color: #008882;
 }
 
 .nav-menu .drop-down ul {
@@ -349,10 +350,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  color: #fff;
 }
 
 .mobile-nav-toggle i {
-  color: #222222;
+  color: #fff;
 }
 
 .mobile-nav {
@@ -363,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #000030;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -380,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #222222;
+  color: #fff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
