@@ -494,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1;
   opacity: 0.95;
-  background: url("../img/bg12.jpg") top left;
+  background: url("../img/bg7.jpg") top left;
   background-size: cover;
 }
 
@@ -515,16 +515,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #008882;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h1 span {
-  color: #008882;
+  color: #00B4A0;
 }
 
 #hero h2 {
-  color: #555555;
+  color: #fff;
+  width: 60%;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
@@ -541,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #008882;
+  background: #00B4A0;
 }
 
 #hero .btn-get-started:hover {
