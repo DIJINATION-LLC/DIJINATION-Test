@@ -559,7 +559,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #dijihead .btn-get-started:hover {
-  background: #247cf0;
+  background: #00847A;
+  color: #fff;
 }
 
 #dijihead .btn-watch-video {
