@@ -477,34 +477,59 @@ h1, h2, h3, h4, h5, h6 {
 # Our Culture
 --------------------------------------------------------------*/
 .main-outer-div-culture{
-  /*border: 3px red solid;*/
+  /*border: 2px gray solid;*/
   margin-left: 50px;
   width: 500px;
+  height: 750px;
   float: left;
+  padding-left: 48px;
+  padding-top: 20px;
+  border-radius: 20px;
 }
 .outer-culture-div{
-  /*border: 1px black solid;*/
-  height: 500px;
-  width: 400px;
+  /*border: 1px blue solid;*/
+  height: 450px;
+  width: 500px;
   padding: 0px;
 }
 .main-culture-div{
-  /*border: 1px black solid;*/ 
+  /*border: 1px purple solid;*/ 
   display: block; 
   float: none;
   width: 400px;
+  height: 250px;
   margin-bottom: 40px;
+ 
 }
 .culture-img{
- /* border: 1px black solid;*/
+  /*border: 1px red solid;*/
+  width: 400px;
+  height: 500px;
  /*margin-left: 0px;*/
 }
 .culture-img-div{
   margin-right: 20px;
+  /*border: black 1px solid;*/
+  margin-top: 0px;
+  
   /* display: block;*/
 }
+.culture-heading{
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #545454;
+}
+.culture-content{
+  font-family: "Nunito", sans-serif;
+  color: #444444;
+  font-size: 20px;
+}
 
-
+/*#attitude-counts{
+  padding-top: 0px;
+}
+*/
 
 /*--------------------------------------------------------------
 # dijihead Section
@@ -1042,7 +1067,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #e2eefd;
+  /*border: 1px solid #e2eefd;*/
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
@@ -1069,9 +1094,9 @@ section {
 }
 
 .services .icon-box h4 {
-  font-weight: 700;
+ /* font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 24px;*/
 }
 
 .services .icon-box h4 a {
@@ -1081,7 +1106,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  /*font-size: 14px;*/
   margin-bottom: 0;
 }
 
