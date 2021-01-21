@@ -476,7 +476,21 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Our Culture
 --------------------------------------------------------------*/
-.main-outer-div-culture{
+.main-culture-div{
+  /*border: 1px black solid;*/
+  
+ max-width: 500px;
+ float: left;
+ margin-right: 60px;
+ margin-bottom: 60px;
+  /*padding: 0px;*/
+}
+.culture-div{
+  /*border: 1px red solid;*/
+  max-width: 500px;
+}
+
+/*.main-outer-div-culture{
   border: 2px gray solid;
   margin-left: 50px;
   width: 500px;
@@ -485,46 +499,46 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 48px;
   padding-top: 20px;
   border-radius: 20px;
-}
-.outer-culture-div{
+}*/
+/*.outer-culture-div{*/
  /* border: 1px blue solid;*/
-  max-width: 400px;
+/*  max-width: 400px;
   float: left;
   margin-bottom: 90px;
   margin-right: 110px;
   padding: 20px;
-  padding-left: 32px;
+  padding-left: 32px;*/
   /*height: 600px;
   width: 500px;*/
   /*padding-left: 0px;*/
-}
-.main-culture-div{
+/*}*/
+/*.main-culture-div{*/
  /* border: 1px purple solid;*/
-  max-width: 300px;
+  /*max-width: 300px;*/
   /*min-width: 200px;*/
   /*margin-left: 240px;*/
-  display: block; 
+ /* display: block;*/ 
   /*float: none;*/
   /*width: 400px;
   height: 250px;
   margin-bottom: 40px;*/
-  margin-left: 16px;
+ /* margin-left: 16px;
  
-}
-.culture-img{
+}*/
+/*.culture-img{*/
  /* border: 1px red solid;*/
-  width: 300px;
+ /* width: 300px;
   height: 400px;
   min-width: 200px;
   margin-left: 0px;
-}
+}*/
 .culture-img-div{
  /* margin-right: 20px;*/
  
  /* border: black 1px solid;*/
-  margin-top: 0px;
+/*  margin-top: 0px;*/
   /*margin-left: 0px;*/
-  max-width: 400px;
+  /*max-width: 400px;*/
   
   /* display: block;*/
 }
