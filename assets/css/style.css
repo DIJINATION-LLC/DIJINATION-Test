@@ -668,6 +668,22 @@ h6 {
   color: #008882;
   font-size: 1.6rem;
 }
+
+.diji-services .card-text {
+  font-size: 1.2rem;
+}
+
+.diji-services .card:hover .card-body {
+  background: #008882;
+}
+
+.diji-services .read-more a {
+  color: #008882;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: 0.4s;
+}
 /*--------------------------------------------------------------
 # dijihead Section
 --------------------------------------------------------------*/
