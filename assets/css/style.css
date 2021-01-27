@@ -673,10 +673,6 @@ h6 {
   font-size: 1.2rem;
 }
 
-.diji-services .card:hover .card-body {
-  background: #008882;
-}
-
 .diji-services .read-more a {
   color: #008882;
   text-transform: uppercase;
