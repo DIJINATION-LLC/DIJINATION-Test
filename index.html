@@ -15,6 +15,8 @@
   rel="stylesheet"
   />
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link
   href="assets/vendor/bootstrap/css/bootstrap.min.css"
   rel="stylesheet"
@@ -382,9 +384,8 @@
       <p>What We Offer</p>
     </div>
     <div class="row row-cols-1 row-cols-md-3 g-4 solutions">
-      <div class="col">
+      <div class="col" data-aos="zoom-in" data-aos-duration="3000">
         <div class="card h-100">
-          <!-- <img src="..." class="card-img-top" alt="..."> -->
           <img src="./assets/svg/ai.svg" class="card-img-top p-4">
           <div class="card-body">
             <h5 class="card-title">AI & ML Solutions</h5>
@@ -395,7 +396,6 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <!-- <img src="..." class="card-img-top" alt="..."> -->
           <img src="./assets/svg/device.svg" class="card-img-top p-4">
           <div class="card-body">
             <h5 class="card-title">Mobile & Web Solutions</h5>
@@ -406,7 +406,6 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <!-- <img src="..." class="card-img-top" alt="..."> -->
           <img src="./assets/svg/gears.svg" class="card-img-top p-4">
           <div class="card-body">
             <h5 class="card-title">DevOps Solutions</h5>
@@ -1422,6 +1421,11 @@
       <script src="assets/vendor/venobox/venobox.min.js"></script>
       <script src="assets/vendor/aos/aos.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+      <script src="https://unpkg.com/aos@2.3.1/"> </script>
+        <script>
+          AOS.init();
+        </script>
 
       <script src="assets/js/main.js"></script>
     </body>
