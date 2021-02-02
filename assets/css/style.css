@@ -682,66 +682,66 @@ h6 {
 }
 
 
-.card-wrapper {
+.diji-services .card-wrapper {
   margin-bottom: 30px;
 }
-.card-image .card .card-img-wrapper {
+.diji-services .card-image .card .card-img-wrapper {
   height: 100%;
 }
-.card-image .card .card-body {
+.diji-services .card-image .card .card-body {
   display: none;
 }
-.card-image-title-description .card .card-img-wrapper {
+.diji-services .card-image-title-description .card .card-img-wrapper {
   max-height: 160px;
 }
-.card-image-title-description .card {
+.diji-services .card-image-title-description .card {
   position: relative;
   min-height: 300px;
 }
-.card-image-title-description .card .card-body {
+.diji-services .card-image-title-description .card .card-body {
   height: auto;
   position: relative;
   top: 0;
   margin-bottom: -70px;
 }
-.card-image-title-description .card:hover .card-body {
+.diji-services .card-image-title-description .card:hover .card-body {
   top: -70px;
 }
-.card-image-title-description .card .card-body .card-title {
+.diji-services .card-image-title-description .card .card-body .card-title {
   margin-bottom: .75rem;
 }
-.card {
+.diji-services .card {
   display: inline-block;
   position: relative;
   overflow: hidden;
   min-height: 400px;
   height: 100%;
 }
-.card:hover {
+.diji-services .card:hover {
   box-shadow: 8px 12px 31px -10px #ab98ab;
 }
-.card-img-wrapper {
+.diji-services .card-img-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50%;
   overflow: hidden;
 }
-.card-img-wrapper img {
+.diji-services .card-img-wrapper img {
   transition: 1.5s ease;
 }
-.card:hover .card-img-wrapper img {
+.diji-services .card:hover .card-img-wrapper img {
   transform: scale(1.15);
 }
-.card-body .card-title {
+.diji-services .card-body .card-title {
   margin-bottom: calc(50% + 20px);
   transition: 1.5s ease;
 }
-.card:hover .card-body .card-title {
+.diji-services .card:hover .card-body .card-title {
   margin-bottom: .75rem;
 }
 
-.card-body {
+.diji-services .card-body {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -750,7 +750,7 @@ h6 {
   background-color: #fff;
   transition: 1.5s ease;
 }
-.card-content {
+.diji-services .card-content {
   left: 0;
   right: 0;
   overflow: hidden;
@@ -758,10 +758,10 @@ h6 {
   height: auto;
   transition: 1.5s ease;
 }
-.card:hover .card-body {
+.diji-services .card:hover .card-body {
   height: 80%;
 }
-.card:hover .card-content {
+.diji-services .card:hover .card-content {
   bottom: 0;
 }
 body {
