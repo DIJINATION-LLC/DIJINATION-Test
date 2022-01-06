@@ -237,6 +237,9 @@ h6 {
   }
 }
 
+#main{
+  background-color: #fff;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -541,16 +544,6 @@ h6 {
   min-width: 200px;
   margin-left: 0px;
 }*/
-.culture-img-div {
-  /* margin-right: 20px;*/
-
-  /* border: black 1px solid;*/
-  /*  margin-top: 0px;*/
-  /*margin-left: 0px;*/
-  /*max-width: 400px;*/
-
-  /* display: block;*/
-}
 .culture-heading {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
@@ -670,7 +663,7 @@ h6 {
 }
 
 .diji-services .card-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .diji-services .read-more a {
@@ -769,13 +762,87 @@ body {
   background-image: linear-gradient(to right, #ECE9E6 , #FFFFFF);
 }
 
+
+
+.dijihead {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.dijihead video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.dijihead .container {
+  position: relative;
+  z-index: 2;
+}
+
+.dijihead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:  linear-gradient(336deg, rgb(0 101 90 / 60%), rgb(2 130 126 / 0.6) 70.71%);
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.dijihead h1{
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.dijihead p{
+  padding-left: 0 !important;
+}
+
+
+@media (max-width: 991.98px) {
+  .dijihead h1 {
+      font-size: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .dijihead h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .dijihead h1 {
+      font-size: 2rem;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # dijihead Section
 --------------------------------------------------------------*/
 #dijihead {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(336deg, rgb(0 101 90 / 60%), rgb(2 130 126 / 0.6) 70.71%), url("../img/bg1.jpg") top left;
+  background: linear-gradient(336deg, rgb(0 101 90 / 60%), rgb(2 130 126 / 0.6) 70.71%), url("../img/video_bg.mp4") top left;
   background-size: cover;
   position: relative;
 }
@@ -841,7 +908,7 @@ body {
   font-weight: 400;
 }
 
-#dijihead .btn-get-started {
+.dijihead .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -929,7 +996,7 @@ body {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 8rem 0;
   overflow: hidden;
 }
 
@@ -2117,6 +2184,11 @@ section {
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
+}
+
+#footer .logo {
+  padding-bottom: 1rem;
+  max-height: 3rem;
 }
 
 #footer .footer-top .footer-contact {
