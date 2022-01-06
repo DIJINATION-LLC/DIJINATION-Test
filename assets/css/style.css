@@ -566,6 +566,10 @@ h6 {
   position: relative;
 }
 
+.diji-culture .box{
+  padding: 1rem;
+}
+
 #diji-culture h2 {
   font-weight: 600;
   font-size: 1.2rem;
