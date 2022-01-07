@@ -838,6 +838,343 @@ body {
   }
 }
 
+/*--------------------------------------------------------------
+# diji-about Section
+--------------------------------------------------------------*/
+#diji-about {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(336deg, rgb(0 101 90 / 60%), rgb(2 130 126 / 0.6) 70.71%), url("../img/about-bg.jpg") top left;
+  background-size: cover;
+  position: relative;
+}
+
+#diji-about:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.95;
+}
+
+#diji-about .container {
+  position: relative;
+  padding-top: 132px;
+  z-index: 2;
+}
+
+@media (max-width: 992px) {
+  #diji-about .container {
+    padding-top: 58px;
+  }
+}
+
+#diji-about h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+#diji-about h1 strong {
+  color: #00b4a0;
+}
+
+#diji-about h3 {
+  color: #fff;
+  width: 60%;
+  margin: 5px 0 20px 0;
+}
+
+#diji-about p{
+  color: #fff;
+}
+
+.diji-about .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #00b4a0;
+}
+
+
+.diji-about {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.diji-about .container {
+  position: relative;
+  z-index: 2;
+}
+
+.diji-about .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:  linear-gradient(336deg, rgb(0 101 90 / 60%), rgb(2 130 126 / 0.6) 70.71%);
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.diji-about h3{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.diji-about p{
+  padding-left: 0 !important;
+}
+
+
+@media (max-width: 991.98px) {
+  .diji-about h1 {
+      font-size: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .diji-about h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .diji-about h1 {
+      font-size: 2rem;
+  }
+}
+
+
+#diji-about .btn-get-started:hover {
+  background: #00847a;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  #diji-about {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  #diji-about {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #diji-about {
+    height: 100vh;
+  }
+  #diji-about h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #diji-about h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #diji-about .btn-get-started,
+  #diji-about .btn-watch-video {
+    font-size: 13px;
+  }
+}
+
+@media (max-height: 500px) {
+  #diji-about {
+    height: 120vh;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# diji-solutions Section
+--------------------------------------------------------------*/
+#diji-solutions {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(336deg, rgb(0 101 90 / 60%), rgb(2 130 126 / 0.6) 70.71%), url("../img/solutions-bg.jpg") top left;
+  background-size: cover;
+  position: relative;
+}
+
+#diji-solutions:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.95;
+}
+
+#diji-solutions .container {
+  position: relative;
+  padding-top: 132px;
+  z-index: 2;
+}
+
+@media (max-width: 992px) {
+  #diji-solutions .container {
+    padding-top: 58px;
+  }
+}
+
+#diji-solutions h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+#diji-solutions h1 strong {
+  color: #00b4a0;
+}
+
+#diji-solutions h3 {
+  color: #fff;
+  width: 60%;
+  margin: 5px 0 20px 0;
+}
+
+#diji-solutions p{
+  color: #fff;
+}
+
+.diji-solutions .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #00b4a0;
+}
+
+
+.diji-solutions {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.diji-solutions .container {
+  position: relative;
+  z-index: 2;
+}
+
+.diji-solutions .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:  linear-gradient(336deg, rgb(0 101 90 / 60%), rgb(2 130 126 / 0.6) 70.71%);
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.diji-solutions h3{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.diji-solutions p{
+  padding-left: 0 !important;
+}
+
+
+@media (max-width: 991.98px) {
+  .diji-solutions h1 {
+      font-size: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .diji-solutions h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .diji-solutions h1 {
+      font-size: 2rem;
+  }
+}
+
+
+#diji-solutions .btn-get-started:hover {
+  background: #00847a;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  #diji-solutions {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  #diji-solutions {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #diji-solutions {
+    height: 100vh;
+  }
+  #diji-solutions h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #diji-solutions h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #diji-solutions .btn-get-started,
+  #diji-solutions .btn-watch-video {
+    font-size: 13px;
+  }
+}
+
+@media (max-height: 500px) {
+  #diji-solutions {
+    height: 120vh;
+  }
+}
+
+
 
 
 /*--------------------------------------------------------------
